@@ -1,0 +1,159 @@
+{
+  "extends": "../../tsconfig.base.json",
+  "compilerOptions": {
+    "jsx": "preserve",
+    "noEmit": true,
+    "allowImportingTsExtensions": true,
+    "plugins": [
+      {
+        "name": "next"
+      }
+    ],
+    "paths": {
+      "@rros/db": [
+        "../../packages/db/src/client.ts"
+      ],
+      "@rros/i18n": [
+        "../../packages/i18n/src/index.ts"
+      ],
+      "@rros/domain/authz": [
+        "../../packages/domain/src/authz/can.ts"
+      ],
+      "@rros/db/repo": [
+        "../../packages/db/src/repo/workspaces.ts"
+      ],
+      "@rros/db/imports": [
+        "../../packages/db/src/repo/imports.ts"
+      ],
+      "@rros/domain/import/parse": [
+        "../../packages/domain/src/import/parse.ts"
+      ],
+      "@rros/domain/import/detect": [
+        "../../packages/domain/src/import/detect.ts"
+      ],
+      "@rros/domain/import/pipeline": [
+        "../../packages/domain/src/import/pipeline.ts"
+      ],
+      "@rros/domain/entitlements": [
+        "../../packages/domain/src/entitlements/check.ts"
+      ],
+      "@rros/domain/classify": [
+        "../../packages/domain/src/classify/state.ts"
+      ],
+      "@rros/domain/import/normalize": [
+        "../../packages/domain/src/import/normalize.ts"
+      ],
+      "@rros/db/queue": [
+        "../../packages/db/src/repo/queue.ts"
+      ],
+      "@rros/domain/scoring": [
+        "../../packages/domain/src/scoring/score.ts"
+      ],
+      "@rros/domain/scoring/signals": [
+        "../../packages/domain/src/scoring/signals.ts"
+      ],
+      "@rros/domain/scoring/explanations": [
+        "../../packages/domain/src/scoring/explanations.ts"
+      ],
+      "@rros/domain/queue": [
+        "../../packages/domain/src/queue/buildQueue.ts"
+      ],
+      "@rros/domain/queue/eligibility": [
+        "../../packages/domain/src/queue/eligibility.ts"
+      ],
+      "@rros/db/actions": [
+        "../../packages/db/src/repo/actions.ts"
+      ],
+      "@rros/domain/drafting/context": [
+        "../../packages/domain/src/drafting/context.ts"
+      ],
+      "@rros/domain/drafting/generate": [
+        "../../packages/domain/src/drafting/generate.ts"
+      ],
+      "@rros/domain/drafting/guardrails": [
+        "../../packages/domain/src/drafting/guardrails.ts"
+      ],
+      "@rros/domain/drafting/prompts/v1": [
+        "../../packages/domain/src/drafting/prompts/v1.ts"
+      ],
+      "@rros/domain/drafting/providers/index": [
+        "../../packages/domain/src/drafting/providers/index.ts"
+      ],
+      "@rros/domain/sending/stopRules": [
+        "../../packages/domain/src/sending/stopRules.ts"
+      ],
+      "@rros/domain/sending/send": [
+        "../../packages/domain/src/sending/send.ts"
+      ],
+      "@rros/domain/sending/providers/index": [
+        "../../packages/domain/src/sending/providers/index.ts"
+      ],
+      "@rros/domain/sending/providers/memory": [
+        "../../packages/domain/src/sending/providers/memory.ts"
+      ],
+      "@rros/db/measurement": [
+        "../../packages/db/src/repo/measurement.ts"
+      ],
+      "@rros/domain/measurement/attribution": [
+        "../../packages/domain/src/measurement/attribution.ts"
+      ],
+      "@rros/domain/measurement/headline": [
+        "../../packages/domain/src/measurement/headline.ts"
+      ],
+      "@rros/domain/measurement/weeklyEmail": [
+        "../../packages/domain/src/measurement/weeklyEmail.ts"
+      ],
+      "@rros/db/billing": [
+        "../../packages/db/src/repo/billing.ts"
+      ],
+      "@rros/db/onboarding": [
+        "../../packages/db/src/repo/onboarding.ts"
+      ],
+      "@rros/domain/billing/access": [
+        "../../packages/domain/src/billing/access.ts"
+      ],
+      "@rros/domain/billing/stateMachine": [
+        "../../packages/domain/src/billing/stateMachine.ts"
+      ],
+      "@rros/domain/billing/signature": [
+        "../../packages/domain/src/billing/signature.ts"
+      ],
+      "@rros/db/inbox": [
+        "../../packages/db/src/repo/inbox.ts"
+      ],
+      "@rros/domain/inbox/provider": [
+        "../../packages/domain/src/inbox/provider.ts"
+      ],
+      "@rros/domain/inbox/normalize": [
+        "../../packages/domain/src/inbox/normalize.ts"
+      ],
+      "@rros/domain/inbox/match": [
+        "../../packages/domain/src/inbox/match.ts"
+      ],
+      "@rros/domain/inbox/gmail": [
+        "../../packages/domain/src/inbox/gmail.ts"
+      ],
+      "@rros/domain/inbox/imap": [
+        "../../packages/domain/src/inbox/imap.ts"
+      ]
+    },
+    "baseUrl": ".",
+    "composite": false,
+    "incremental": false,
+    "allowJs": true,
+    "isolatedModules": true
+  },
+  "include": [
+    "next-env.d.ts",
+    "**/*.ts",
+    "**/*.tsx",
+    "../../packages/db/src/**/*.ts",
+    "../../packages/i18n/src/**/*.ts",
+    "../../packages/domain/src/**/*.ts",
+    ".next/types/**/*.ts"
+  ],
+  "exclude": [
+    "node_modules",
+    "**/*.test.ts"
+  ]
+}

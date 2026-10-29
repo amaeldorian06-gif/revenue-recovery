@@ -1,0 +1,4 @@
+N° facture;Client;Objet;Montant HT;Date envoi;Stade;Nb relances;Email contact
+FA-2026-001;EXEMPLE - Cabinet Dupont;Audit comptable - phase 2;4500.00;02/09/2026;Proposition envoyée;0;compta@exemple.fr
+FA-2026-002;EXEMPLE - Studio Nova;Refonte site vitrine;12000.00;15/08/2026;Relance 1;1;facturation@exemple.fr
+FA-2026-003;EXEMPLE - Atelier Martin;Maintenance mensuelle;850.00;10/10/2026;Devis accepté;0;contact@exemple.fr

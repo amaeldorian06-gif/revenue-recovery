@@ -1,0 +1,61 @@
+N° devis;Client;Objet;Montant HT;Date envoi;Stade;Nb relances;Email contact
+D-1000;Nordwave Digital;Packaging et déclinaisons print;27500.00;18/10/2026;Relance 2;2;contact0@exemple.fr
+D-1001;Nordwave Digital;Application de suivi de flotte;8 750,00 € HT;23/09/2026;Relance 1;2;
+D-1002;Orion Retail;Portail de suivi de chantier;4100.00;15/09/2026;Proposition envoyée;0;contact2@exemple.fr
+D-1003;Atelier Merlot;Refonte du site vitrine;sur devis;14/10/2026;Proposition envoyée;1;
+D-1004;Moulin & Fils;Campagne de lancement;9900.00;15/10/2026;Devis validé oralement;2;contact4@exemple.fr
+D-1005;Orion Retail;Refonte du site vitrine;9400.00;10/09/2026;Relance 1;2;
+D-1006;Kadea Labs;Packaging et déclinaisons print;5900.00;15/10/2026;Relance 1;2;contact6@exemple.fr
+D-1007;;Audit technique et plan de refonte;11 200,00 € HT;22/10/2026;Relance 2;2;
+D-1008;Kadea Labs;Application de suivi de flotte;5900.00;24/10/2026;Proposition envoyée;1;contact8@exemple.fr
+D-1009;Groupe Ambre;Portail de suivi de chantier;21 500,00 € HT;21/10/2026;Proposition envoyée;0;
+D-1010;Orion Retail;Tableau de bord RH;9 400,00 € HT;24/10/2026;Proposition envoyée;0;contact10@exemple.fr
+D-1011;Terra Nova;Portail de suivi de chantier;23 700,00 € HT;31/02/2026;Relance 2;2;
+D-1012;Atelier Merlot;Tableau de bord RH;14 800,00 € HT;21/10/2026;Négociation;1;contact12@exemple.fr
+D-1013;Atelier Merlot;Refonte du site vitrine;7 800,00 € HT;21/10/2026;Proposition envoyée;1;
+D-1014;Orion Retail;Packaging et déclinaisons print;34 000,00 € HT;27/09/2026;Proposition envoyée;0;contact14@exemple.fr
+D-1015;Studio Kamba;Tableau de bord RH;0;22/10/2026;Négociation;2;
+D-1016;Sillage Com;Refonte du site vitrine;9 400,00 € HT;30/09/2026;Proposition envoyée;0;contact16@exemple.fr
+D-1017;Atelier Merlot;Extranet fournisseurs;8 750,00 € HT;15/10/2026;Proposition envoyée;1;
+D-1018;Groupe Ambre;Audit technique et plan de refonte;27 500,00 € HT;22/10/2026;Négociation;1;contact18@exemple.fr
+D-1019;Verte Logistique;Portail de suivi de chantier;1,5k;03/10/2026;Relance 2;2;
+D-1020;Verte Logistique;Campagne de lancement;2100.00;13/10/2026;Négociation;1;contact20@exemple.fr
+D-1021;Groupe Ambre;Tableau de bord RH;34000;23/10/2026;Relance 1;1;
+D-1022;Groupe Ambre;Maintenance applicative;7 800,00 € HT;17/10/2026;Relance 2;2;contact22@exemple.fr
+D-1023;Nova Industrie;Tableau de bord RH;9 400,00 € HT;13/10/2026;Relance 2;2;
+D-1024;Studio Kamba;Refonte du site vitrine;5900.00;18/10/2026;Proposition envoyée;1;contact24@exemple.fr
+D-1025;Helios Conseil;Tableau de bord RH;11 200,00 € HT;19/09/2026;Négociation;2;
+D-1026;Sillage Com;Refonte éditoriale;34 000,00 € HT;05/09/2026;Proposition envoyée;0;contact26@exemple.fr
+D-1027;Helios Conseil;Plateforme de commande B2B;7 800,00 € HT;24/10/2026;Proposition envoyée;1;
+D-1028;Orion Retail;Plateforme de commande B2B;2 100,00 € HT;15/10/2026;Négociation;2;contact28@exemple.fr
+D-1029;Sable Studio;Maintenance applicative;4 100,00 € HT;23/10/2026;Négociation;1;
+D-1030;Moulin & Fils;Portail de suivi de chantier;5 900,00 € HT;23/10/2026;Devis validé oralement;2;contact30@exemple.fr
+D-1031;Orion Retail;Identité visuelle;7800.00;19/09/2026;Proposition envoyée;0;
+D-1032;Orion Retail;Application de suivi de flotte;4 100,00 € HT;09/10/2026;Proposition envoyée;0;contact32@exemple.fr
+D-1033;Studio Kamba;Campagne de lancement;12 400,00 € HT;14/10/2026;Proposition envoyée;1;
+D-1034;Terra Nova;Identité visuelle;18300;15/09/2026;Proposition envoyée;0;contact34@exemple.fr
+D-1035;Groupe Ambre;Tableau de bord RH;5900.00;05/10/2026;Proposition envoyée;1;
+D-1036;Verte Logistique;Portail de suivi de chantier;2100;13/10/2026;Proposition envoyée;0;contact36@exemple.fr
+D-1037;Studio Kamba;Application de suivi de flotte;21500.00;03/10/2026;Proposition envoyée;1;
+D-1038;Kadea Labs;Refonte éditoriale;11200;21/10/2026;Négociation;1;contact38@exemple.fr
+D-1039;Sable Studio;Packaging et déclinaisons print;27500.00;14/10/2026;Proposition envoyée;1;
+D-1040;Atelier Merlot;Plateforme de commande B2B;12400.00;24/10/2026;Devis validé oralement;2;contact40@exemple.fr
+D-1041;Helios Conseil;Refonte du site vitrine;34000;21/10/2026;Devis validé oralement;2;
+D-1042;Sable Studio;Extranet fournisseurs;12 400,00 € HT;20/10/2026;Relance 2;2;contact42@exemple.fr
+D-1043;Moulin & Fils;Tableau de bord RH;27500.00;07/10/2026;Relance 2;2;
+D-1044;Sillage Com;Plateforme de commande B2B;9400.00;11/10/2026;Proposition envoyée;0;contact44@exemple.fr
+D-1045;Batiplus SA;Extranet fournisseurs;9900.00;19/10/2026;Négociation;1;
+D-1046;Palmier Media;Application de suivi de flotte;34 000,00 € HT;19/10/2026;Proposition envoyée;0;contact46@exemple.fr
+D-1047;Helios Conseil;Plateforme de commande B2B;8 750,00 € HT;11/10/2026;Devis validé oralement;2;
+D-1048;Nova Industrie;Identité visuelle;21500.00;19/10/2026;Devis validé oralement;2;contact48@exemple.fr
+D-1049;Helios Conseil;Maintenance applicative;27 500,00 € HT;05/09/2026;Proposition envoyée;0;
+D-1050;Nova Industrie;Maintenance applicative;11200.00;23/10/2026;Relance 1;2;contact50@exemple.fr
+D-1051;Atelier Merlot;Audit technique et plan de refonte;7800.00;25/10/2026;Relance 2;2;
+D-1052;Orion Retail;Application de suivi de flotte;7800;13/10/2026;Proposition envoyée;1;contact52@exemple.fr
+D-1053;Batiplus SA;Campagne de lancement;18300;15/09/2026;Relance 2;2;
+D-1054;Sable Studio;Refonte éditoriale;8750;21/10/2026;Devis validé oralement;2;contact54@exemple.fr
+D-1055;Sable Studio;Refonte éditoriale;8 750,00 € HT;23/10/2026;Négociation;1;
+D-1056;Kadea Labs;Refonte éditoriale;45000.00;19/09/2026;Proposition envoyée;0;contact56@exemple.fr
+D-1057;Nordwave Digital;Campagne de lancement;5900.00;22/10/2026;Négociation;2;
+D-1058;Kadea Labs;Packaging et déclinaisons print;9400.00;27/09/2026;Proposition envoyée;0;contact58@exemple.fr
+D-1059;Orion Retail;Identité visuelle;45000;10/09/2026;Négociation;1;

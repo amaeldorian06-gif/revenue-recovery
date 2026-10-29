@@ -1,0 +1,22 @@
+{
+  "name": "@rros/db",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "exports": {
+    ".": "./src/client.ts",
+    "./repo": "./src/repo/workspaces.ts",
+    "./actions": "./src/repo/actions.ts",
+    "./queue": "./src/repo/queue.ts",
+    "./imports": "./src/repo/imports.ts",
+    "./measurement": "./src/repo/measurement.ts",
+    "./billing": "./src/repo/billing.ts",
+    "./onboarding": "./src/repo/onboarding.ts",
+    "./inbox": "./src/repo/inbox.ts",
+    "./team": "./src/repo/team.ts",
+    "./jobs": "./src/repo/jobs.ts",
+    "./gdpr": "./src/repo/gdpr.ts",
+    "./licensing": "./src/repo/licensing.ts",
+    "./ar": "./src/repo/ar.ts"
+  }
+}

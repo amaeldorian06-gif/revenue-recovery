@@ -1,0 +1,24 @@
+# --- dépendances et builds (régénérés) ---
+node_modules/
+.next/
+.next-dev/
+dist/
+coverage/
+*.tsbuildinfo
+
+# --- secrets : jamais le vrai .env, seulement .env.example ---
+.env
+.env.local
+.env.*.local
+
+# --- données runtime de l'application (exports d'espaces, fichiers clients) ---
+apps/web/var/
+
+# --- caches et artefacts d'outillage ---
+__pycache__/
+*.pyc
+*.log
+.DS_Store
+playwright-report/
+test-results/
+.cache/

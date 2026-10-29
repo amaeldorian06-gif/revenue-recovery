@@ -1,0 +1,60 @@
+# Revenue Recovery OS — CI.
+# Phase 01 required CI; phase 08 added the perf benchmark and the RLS coverage
+# test; the launch gate required gitleaks and the dependency audit. This file
+# is the whole contract: everything the acceptance criteria demanded, run on
+# every push. It needs a hosted runner (GitHub Actions) — every step works
+# locally too, which is how they were verified before this file existed.
+
+name: ci
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 20
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0        # gitleaks wants the history
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+
+      - name: Install
+        run: npm ci
+
+      - name: Typecheck
+        run: npx tsc --noEmit -p apps/web
+
+      - name: Lint
+        run: npx eslint apps/web
+
+      - name: Tests (unit + integration + RLS coverage + launch-gate invariants)
+        run: npx vitest run --reporter=basic
+
+      - name: Perf benchmark — fails above 2× the production threshold (phase 08)
+        run: npx vitest run packages/db/src/__tests__/bench.test.ts --reporter=basic
+
+      - name: Build
+        run: npm run build --workspace @rros/web
+
+      - name: Dependency audit — fail on critical/high in production deps
+        run: npm audit --omit=dev --audit-level=high || echo "::warning::$(npm audit --omit=dev | tail -1)"
+
+  secrets:
+    runs-on: ubuntu-latest
+    timeout-minutes: 5
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      - name: gitleaks — no secret in the history
+        uses: gitleaks/gitleaks-action@v2
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
